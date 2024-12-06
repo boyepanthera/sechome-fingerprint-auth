@@ -89,7 +89,7 @@ sudo chmod 666 /dev/ttyUSB0  # Replace with your port
 3. Test Connection:
 
 ```bash
-python fingerprint_system.py
+python main.py
 ```
 
 ## Usage Instructions
@@ -98,7 +98,7 @@ python fingerprint_system.py
    - Run the program:
 
 ```bash
-python fingerprint_system.py
+python main.py
 ```
 
 2. Available Options:
@@ -184,7 +184,7 @@ python fingerprint_system.py
 ```
 project/
 │
-├── fingerprint_system.py    # Main program
+├── main.py    # Main program
 ├── success.wav             # Success sound
 ├── failure.wav            # Failure sound
 ├── fingerprint_features.npy # Feature database
