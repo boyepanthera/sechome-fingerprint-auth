@@ -1,5 +1,6 @@
-```markdown
-# Fingerprint Recognition System with R307 and DeepPrint
+# SECHOME
+
+Fingerprint Recognition System with R307 and DeepPrint
 
 This system combines hardware fingerprint sensing using the R307 sensor with deep learning-based verification using DeepPrint.
 
@@ -21,6 +22,7 @@ This system combines hardware fingerprint sensing using the R307 sensor with dee
    - Computer/Laptop with USB port
 
 ## Wiring Diagram
+
 ```
 
 R307 Sensor USB-TTL Converter
@@ -36,7 +38,7 @@ RX (White) --> TX
                   -------
                     USB  -->  Computer
 
-````
+```
 
 ## System Requirements
 
@@ -49,13 +51,14 @@ RX (White) --> TX
 ## Software Installation
 
 1. Install Python Dependencies:
+
 ```bash
 pip install pyserial
 pip install torch
 pip install numpy
 pip install Pillow
 pip install simpleaudio
-````
+```
 
 2. Sound Files Setup:
 
@@ -208,7 +211,3 @@ This project is released under the MIT License. See LICENSE file for details.
 ## Disclaimer
 
 This system is for educational and development purposes. Implement appropriate security measures for production use.
-
-```
-
-```
